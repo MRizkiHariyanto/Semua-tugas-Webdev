@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+</head>
+<style>
+    body {
+      background-color: lightgreen;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+    }
+
+    .grid-container {
+        
+        display: grid;             
+        padding: 10px;
+        column-gap: 50px;       
+        row-gap: 50px;
+
+        }
+        
+.grid-item {
+background-color: white;
+text-align: center;
+padding: 20px;
+font-size: 30px;
+border-radius: 10px;
+}
+
+.item1 {
+grid-column: 1 / span 4;
+grid-row: 1;
+}
+
+.item2 {
+grid-column: 1;
+grid-row: 2/span 1;
+border-radius:50px;
+}
+.item3 {
+grid-column: 2/span 3;
+grid-row: 2;
+}
+.item4 {
+grid-column: 2/span 3;
+grid-row: 3;
+font-size: smaller;
+}
+#img {
+    border-radius: 100px;
+}
+
+</style>
+<body>
+ 
+    <div class="grid-container">
+        <div class="grid-item item1">About Me</div>
+        <div class="grid-item item2 "><img id="img" src="gambar/akuganteng.jpg" width="200px" height="250px"> </div>
+        <div class="grid-item item3">
+            <p>Nama Saya Muhammad Rizki hariyanto</p>
+            <p>saya tinggal di pamulang</p>
+            <p>lahir di Tangerang pada 20 januari 2006</p>
+            <p>hobi saya main bola</p>
+        </div>  
+        <div class="grid-item item4"> <p>
+            Email me:
+            <a href="rizkihariyantoo@gmail.com">
+                rizkihariyantoo@gmail.com
+            </a>
+           </p>
+           </div>
+    </div>    
+</body>
+</body>
+</html>
