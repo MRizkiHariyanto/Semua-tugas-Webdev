@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00ff91;
+}
+
+.container {
+    text-align: start;
+    background-color: #f3fc00;
+    height: 600px;
+    width: 800px;
+    border-radius: 100px;
+}
+
+input {
+    padding: 8px;
+    font-size: 20px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
